@@ -13,26 +13,18 @@ const Navbar = () => {
           <div className="relative top-[6px]">
             <img src="/logo-no-background.png" alt="logo" width={110} />
           </div>
-          <ul className="cursor-pointer text-sm text-eerieBlack">
+          <ul className=" flex gap-6 cursor-pointer text-eerieBlack">
             <Link to="/">
-              <li className="cursor-pointer block lg:inline-block hover:text-jet mr-4">
-                Home
-              </li>
+              <li className="cursor-pointer block hover:text-jet">Home</li>
             </Link>
             <Link to="/shop">
-              <li className="cursor-pointer block lg:inline-block hover:text-jet mr-4">
-                Shop
-              </li>
+              <li className="cursor-pointer block hover:text-jet">Shop</li>
             </Link>
             <Link to="/about">
-              <li className="cursor-pointer block lg:inline-block hover:text-jet mr-4">
-                About
-              </li>
+              <li className="cursor-pointer block hover:text-jet">About</li>
             </Link>
             <Link to="Contact">
-              <li className="cursor-pointer block lg:inline-block hover:text-jet">
-                Contact
-              </li>
+              <li className="cursor-pointer block hover:text-jet">Contact</li>
             </Link>
           </ul>
           <div className="flex gap-4">
