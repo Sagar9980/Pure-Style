@@ -1,6 +1,6 @@
-import { MainContainer } from "../../Container/MainContainer";
+import { MainContainer } from "Container/MainContainer";
 import { Link } from "react-router-dom";
-import { ReactComponent as CartIcon } from "../../Assets/icons/cart.svg";
+import { ReactComponent as CartIcon } from "Assets/icons/cart.svg";
 
 const Navbar = () => {
   return (
