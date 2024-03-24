@@ -4,6 +4,7 @@ export const colors = {
   platinum: "#E4E4E5ff",
   timberwolf: "#D3D3D4ff",
   davysGray: "#5F5D5Aff",
+  white: "#ffffff",
 };
 
 export const gradients = {
