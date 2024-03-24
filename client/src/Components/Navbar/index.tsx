@@ -1,6 +1,9 @@
 import { MainContainer } from "Container/MainContainer";
 import { Link } from "react-router-dom";
 import { ReactComponent as CartIcon } from "Assets/icons/cart.svg";
+import { ReactComponent as SearchIcon } from "Assets/icons/search.svg";
+import { ReactComponent as FavouriteIcon } from "Assets/icons/heart.svg";
+import { ReactComponent as ProfileIcon } from "Assets/icons/profile.svg";
 
 const Navbar = () => {
   return (
@@ -32,8 +35,11 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div>
+          <div className="flex gap-4">
+            <SearchIcon />
+            <FavouriteIcon />
             <CartIcon />
+            <ProfileIcon />
           </div>
         </div>
       </MainContainer>
