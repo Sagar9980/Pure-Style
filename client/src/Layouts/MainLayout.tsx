@@ -5,12 +5,10 @@ import { Outlet } from "react-router-dom";
 export const MainLayout = () => {
   return (
     <div className="w-full">
-      <header>
-        <Navbar />
-      </header>
-      <div>
+      <Navbar />
+      <main>
         <Outlet />
-      </div>
+      </main>
       <footer>This is Footer</footer>
     </div>
   );
