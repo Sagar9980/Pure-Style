@@ -23,34 +23,11 @@ const Navbar = () => {
             aria-haspopup="true"
             onClick={() => setIsDrawerOpen(true)}
           >
-            {/* Mobile Hamburger menu */}
             <HamBurgerMenuIcon />
           </button>
           <div className="relative top-[6px]">
             <img src="/logo-no-background.png" alt="logo" width={110} />
           </div>
-          {/* <ul className=" flex gap-6 cursor-pointer text-eerieBlack">
-            <NavLink to="/">
-              <li className="cursor-pointer block hover:text-jet hover:underline">
-                Home
-              </li>
-            </NavLink>
-            <NavLink to="/shop">
-              <li className="cursor-pointer block hover:text-jet hover:underline">
-                Shop
-              </li>
-            </NavLink>
-            <NavLink to="/about">
-              <li className="cursor-pointer block hover:text-jet hover:underline">
-                About
-              </li>
-            </NavLink>
-            <NavLink to="Contact">
-              <li className="cursor-pointer block hover:text-jet hover:underline">
-                Contact
-              </li>
-            </NavLink>
-          </ul> */}
           <div className="hidden md:block">
             <MegaMenu />
           </div>

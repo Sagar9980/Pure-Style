@@ -39,7 +39,7 @@ const MenuItem = ({
             aria-haspopup="menu"
             aria-expanded={active ? "true" : "false"}
           >
-            {active ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+            {active ? <ChevronUp width={20} /> : <ChevronDown width={20} />}
           </button>
         )}
       </div>

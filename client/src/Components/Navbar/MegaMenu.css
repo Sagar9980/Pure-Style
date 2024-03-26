@@ -1,60 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   --mainColor: #2b2b2b;
   --borderColor: #cacaca;
 }
-
-body,
-:root {
-  font-family: "Open Sans", sans-serif;
-}
-
-/* ================================ 
-Global
-=======================================*/
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-button {
-  cursor: pointer;
-  color: var(--mainColor);
-}
-
-.hidden {
-  display: none;
-}
-
-.block {
-  display: block;
-}
-
-.h-0 {
-  height: 0;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.absolute {
-  position: absolute;
-}
-
-/* ================================ 
-End Global
-=======================================*/
 
 .nav__header {
   position: static;
@@ -311,12 +258,6 @@ MEDIA QUERIES
     margin-right: 1rem;
   }
 
-  .nav__container > nav > ul {
-    display: flex;
-    align-items: center;
-    line-height: 50px;
-  }
-
   .nav_item_content {
     border-style: none;
     height: auto;
@@ -337,7 +278,7 @@ MEDIA QUERIES
   .dropdown {
     position: absolute;
     left: 0;
-    top: 50px;
+    top: 70px;
     width: 100%;
     border-bottom: 1px solid var(--borderColor);
     border-radius: 0 0 16px 16px;
